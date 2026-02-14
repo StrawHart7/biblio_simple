@@ -169,8 +169,8 @@ class MainWindow:
     
     def open_emprunt(self):
         """Ouvrir le module d'emprunt"""
-        messagebox.showinfo("Info", "Module Emprunt - À implémenter")
-        # TODO: Ouvrir la fenêtre d'emprunt
+        from ui.emprunt_window import EmpruntWindow
+        EmpruntWindow(self.root, self.bibliothecaire_id)
     
     def open_retour(self):
         """Ouvrir le module de retour"""
