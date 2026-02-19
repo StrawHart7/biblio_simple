@@ -1,11 +1,11 @@
 # Requirements pour le projet Bibliothèque
-# Installation : pip install -r requirements.txt
 
 # Connexion MySQL
 mysql-connector-python==8.0.33
 
-# Interface graphique (Tkinter est inclus avec Python)
-# Pas besoin d'installer Tkinter séparément
+# API REST
+flask==3.0.0
+flask-cors==4.0.0
 
-# Optionnel : pour des dates plus faciles
+# Dates
 python-dateutil==2.8.2
